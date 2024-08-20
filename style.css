@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+}
+body {
+    padding: 5px;
+    align-items: center;
+    background-color: lightgray;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: aqua;
+    color: white;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px lightgray;
+}
+textarea {
+    height: 200px;
+    padding: 5px 4px;
+}
+td, th {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-style: solid;
+    border: 1;
+    background-color: white;
+}
